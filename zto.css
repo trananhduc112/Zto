@@ -23,6 +23,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
+a:hover{
+    text-decoration: none !important;
+}
 body {
     line-height: 1;
     font-family: roboto;
@@ -110,9 +113,10 @@ img {
 }
 .cours2:hover .hover{
   transform:scale(1.1);
-  transition:.1s;
+  transition:.0001s;
 }
 .cours2:hover .card-body{
     background-color:  #00BFFF;
+    box-shadow: 0 0 30px #00BFFF;
     color: white !important;
 }
