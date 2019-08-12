@@ -102,6 +102,17 @@ img {
 .dropdown:hover .dropdown-menu {
     display: block;
 }
-.dropdown:hover .text-f {
-  color: #00BFFF;
+.text-h:hover .text-f {
+  color: #00BFFF !important;
+}
+.box-f:hover img{
+    transform: scale(1.1);
+}
+.cours2:hover .hover{
+  transform:scale(1.1);
+  transition:.1s;
+}
+.cours2:hover .card-body{
+    background-color:  #00BFFF;
+    color: white !important;
 }
