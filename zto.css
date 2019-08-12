@@ -73,10 +73,10 @@ img {
 }
 .fix-1{
     position: absolute;
-    top: 286px;
-    left:149px;
     background-color:#344167;
     opacity:0.95 !important;
+    bottom: 0px;
+    left: 10%
 }
 .z-index{
     z-index: 10
