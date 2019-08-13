@@ -23,6 +23,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
+li{
+     list-style-type:none;
+}
 a:hover{
     text-decoration: none !important;
 }
@@ -80,7 +83,7 @@ img {
 .fix-1{
     position: absolute;
     background-color:#344167;
-    opacity:0.95 !important;
+    opacity:0.9;
     bottom: 0px;
     left: 10%
 }
@@ -136,4 +139,21 @@ img {
 div.ads-h:hover{
      background-color:  white;
      box-shadow:0 3px 20px #dbd8ec;
+}
+.ht{
+    height: 100px;
+    width: 330px;
+}
+.s{
+    background-color:#344167 !important;
+    position: absolute;
+    bottom: 35px;
+    opacity:1 !important;
+}
+.sea{
+    height: 50px;
+    width: 330px;
+}
+.b{
+    display: none;
 }
