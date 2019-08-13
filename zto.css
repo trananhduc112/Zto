@@ -71,6 +71,9 @@ img {
 .text-blue{
     color:#52A1F0;
 }
+.bg-blue{
+    background-color: #52A1F0;
+}
 .rel{
      position: relative;
 }
@@ -78,6 +81,12 @@ img {
     position: absolute;
     background-color:#344167;
     opacity:0.95 !important;
+    bottom: 0px;
+    left: 10%
+}
+.fix-2{
+    position: absolute;
+    background-color:#344167;
     bottom: 0px;
     left: 10%
 }
@@ -119,4 +128,12 @@ img {
     background-color:  #00BFFF;
     box-shadow: 0 0 30px #00BFFF;
     color: white !important;
+}
+.p-0{
+    padding-left : 0 !important;
+    padding-right: 0 !important;
+}
+div.ads-h:hover{
+     background-color:  white;
+     box-shadow:0 3px 20px #dbd8ec;
 }
