@@ -35,6 +35,7 @@ body {
 }
 ol, ul {
     list-style: none;
+    margin-bottom: 0px!important;
 
 }
 .mb-0{
@@ -74,6 +75,9 @@ img {
 .bg-grey{
     background-color: #DCDCDC;
 }
+.bg-g{
+    background-color: #efeff1;
+}
 .text-blue{
     color:#52A1F0;
 }
@@ -88,6 +92,10 @@ img {
     background-color:#344167;
     opacity:0.9;
     bottom: 0px;
+}
+.fix-s{
+    position: absolute;
+    bottom: 30px;
 }
 .p-6{
     padding:0 68px;
@@ -157,4 +165,34 @@ div.ads-h:hover{
 .m-0{
     margin-left: 0px!important;
     margin-right: 0px!important;
+}
+.search-m{
+    width: 80%;
+    border-radius:15px 0 0 15px;
+    border: none;
+    padding:7px 0 7px 20px  ;
+    outline:none;
+}
+.button-s{
+    width: 15%; border:none;
+    border-radius:0px 15px 15px 0;
+    padding:4px 0 5px 0  ;
+    outline:none;
+    border :none;
+}
+@media (min-width: 1200px) {
+    .personlist{
+        width:23rem;
+        height:220px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .personlist{
+        width:19rem;
+        height:200px;
+    }
+}
+.rounded-pill{
+    border-radius: 20px;
+    padding: 5px 10px;
 }
