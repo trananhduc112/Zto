@@ -82,7 +82,7 @@ img {
     color:#52A1F0;
 }
 .bg-blue{
-    background-color: #52A1F0;
+    background-image: linear-gradient(45deg,#3b95fa,#3bc6fa);
 }
 .rel{
      position: relative;
@@ -174,7 +174,7 @@ div.ads-h:hover{
     outline:none;
 }
 .button-s{
-    width: 15%; border:none;
+    width: 20%; border:none;
     border-radius:0px 15px 15px 0;
     padding:4px 0 5px 0  ;
     outline:none;
