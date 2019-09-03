@@ -66,6 +66,9 @@ img {
 .text-14{
     font-size:14px;
 }
+.text-16{
+    font-size:16px;
+}
 .text-18{
     font-size:20px;
 }
@@ -78,11 +81,17 @@ img {
 .bg-g{
     background-color: #efeff1;
 }
+.bg-body{
+    background-color:#eef1f4;;
+}
 .text-blue{
     color:#52A1F0;
 }
 .bg-blue{
     background-image: linear-gradient(45deg,#3b95fa,#3bc6fa);
+}
+.bg-b{
+    background-color: #409eff;
 }
 .rel{
      position: relative;
@@ -284,4 +293,134 @@ div.sticky{
 }
 .business-box-text p .orange {
     color: #fe9a69;
+}
+.item-top{
+    width: 20%;
+    margin-right: 2px;
+    padding: 12px 0;
+}
+.item-t:hover{
+    color: #aea9b6;
+}
+.actived {
+    border: 2px solid #0099d9;
+}
+.actived a {
+     color: #0099d9;
+}
+.actived a:hover{
+    color: #0099d9;
+}
+.item-t{
+    color: #aea9b6;
+    padding: 17px 43px;
+}
+.title {
+    bgmargin: 0px 0 20px 0;
+    padding-top: 60px;
+}
+.title i {
+    display: block;
+    width: 16px;
+    height: 1px;
+    background: #0099d9;
+}
+.principle-detail p {
+    line-height: 22px;
+    color: #737373;
+    font-size: 14px;
+}
+.condition-list ul li p {
+    font-size: 14px;
+    line-height: 26px;
+    color: #737373;
+    margin-left: 18px;
+}
+.condition-list ul li {
+    background: url(./image/icon.png) 0 -166px no-repeat;
+}
+.card-body h3 {
+    font-size: 16px;
+    color: #191919;
+}
+.card-body p {
+    padding-top: 18px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #737373;
+}
+.cost-list p {
+    font-size: 14px;
+    color: #7e7e7e;
+    line-height: 22px;
+}
+.bt-cooperation{
+    width: 134px;
+    height: 42px;
+    background: #0099d9;
+    text-align: center;
+    color: #fff;
+    line-height: 42px;
+    border: none;
+    margin :50px 0 30px 95px;
+    cursor: pointer;
+}
+.p-nav{
+    padding:20px 0 !important;
+}
+.sendLable {
+    width: 27px;
+    height: 52px;
+    font-size: 18px;
+    color: #fff;
+    background: url(./image/sendBg.png) no-repeat 0 0;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    z-index: 99;
+    text-align: center;
+    line-height: 50px;
+}
+.card__body {
+    padding: 30px 20px 20px;
+}
+.text-o{
+    color:#f56c6c;
+}
+.login_tips {
+    padding-top: 60px;
+    padding-left: 45px
+}
+.login_tips_title {
+    font-size: 14px;
+    color: #282828;
+    padding-bottom: 20px;
+}
+.login_tips ul li span {
+    color: #a4a1b1;
+    padding-left: 8px;
+    padding-top: 3px;
+}
+.login_tips_bottom {
+    line-height: 40px;
+    color: #9999a7;
+}
+.el-button--info {
+    color: #fff;
+    background-color: #909399;
+    border-color: #909399;
+    border-radius: 5px;
+}
+.collectLable {
+    width: 27px;
+    height: 52px;
+    font-size: 18px;
+    color: #fff;
+    background: url(./image/receiveBg.png) no-repeat 0 0;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    z-index: 99;
+    text-align: center;
+    line-height: 50px;
 }
